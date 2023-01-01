@@ -1,0 +1,27 @@
+# ninja log v5
+2	71	6942834360207141	CMakeFiles/Assignment5.dir/main.cpp.obj	d68194baefe3a396
+71	151	6942834360970203	Assignment5.exe	e0c38f27d25cdfa2
+1	225	6942855481486985	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+227	478	6942855483955299	Assignment5.exe	b985cdc4b1458957
+9	205	6942855956761244	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+206	401	6942855958630263	Assignment5.exe	b985cdc4b1458957
+7	201	6942860785567336	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+203	418	6942860787724678	Assignment5.exe	b985cdc4b1458957
+5	164	6942864904542248	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+165	368	6942864906528810	Assignment5.exe	b985cdc4b1458957
+5	164	6942865003986311	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+165	344	6942865005718756	Assignment5.exe	b985cdc4b1458957
+5	170	6942866370742877	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+180	434	6942866373225934	Assignment5.exe	b985cdc4b1458957
+6	173	6942867370485788	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+174	390	6942867372558211	Assignment5.exe	b985cdc4b1458957
+6	178	6942867472759842	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+179	365	6942867474561577	Assignment5.exe	b985cdc4b1458957
+6	183	6942867623955694	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+183	354	6942867625555543	Assignment5.exe	b985cdc4b1458957
+5	181	6942867988092982	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+182	400	6942867990022085	Assignment5.exe	b985cdc4b1458957
+6	158	6942868254110322	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+159	328	6942868255742464	Assignment5.exe	b985cdc4b1458957
+7	164	6942868615943701	CMakeFiles/Assignment5.dir/stack.cpp.obj	23edf179ca8257e
+165	342	6942868617662906	Assignment5.exe	b985cdc4b1458957
