@@ -19,7 +19,7 @@ int jumpSearch(int arr[],int size,int key) {
         int a = arr[min(step, size)];
 
         if (a == key) {
-            return arr[min(step, size) - 1];
+            return min(step, size);
         }
 
         previous = step;
@@ -38,16 +38,7 @@ int jumpSearch(int arr[],int size,int key) {
 
         return mid;
 
-    } else if (arr[mid] > key) {
-
-        for (int i = previous; i < step; i++) {
-
-            if (arr[i] == key) {
-                return i;
-            }
-        }
-
-    } else if (arr[mid] < key) {
+    } else if (arr[mid] < key && step<size) {
 
         for (int i = mid; i < step; i++) {
 
@@ -56,17 +47,22 @@ int jumpSearch(int arr[],int size,int key) {
             }
         }
 
+    } for (int i = previous; i < step; i++) {
+
+        if (arr[i] == key) {
+            return i;
+        }
     }
 
 }
 
 int main(){
 
-    int arr[]={1,11,12,22,23,33,34,44,45,55,56,66,67,77,78,88,89,99,100};
+    int arr[]={1,11,12,22,23,33,34,44,45,55,56,66,67,77,78,88,89,99,100,111,222,333};
 
     int size = sizeof(arr)/sizeof(arr[0]);
 
-    int toFind = 77;
+    int toFind = 222;
 
     int indexNumber = jumpSearch(arr, size, toFind);
 

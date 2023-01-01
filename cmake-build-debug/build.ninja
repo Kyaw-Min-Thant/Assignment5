@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Lenovo/my+Code/dic/Assignment5/cmake-build-debug
 
 build cmake_object_order_depends_target_Assignment5: phony || CMakeFiles/Assignment5.dir
 
-build CMakeFiles/Assignment5.dir/stack.cpp.obj: CXX_COMPILER__Assignment5_Debug C$:/Users/Lenovo/my+Code/dic/Assignment5/stack.cpp || cmake_object_order_depends_target_Assignment5
-  DEP_FILE = CMakeFiles\Assignment5.dir\stack.cpp.obj.d
+build CMakeFiles/Assignment5.dir/main.cpp.obj: CXX_COMPILER__Assignment5_Debug C$:/Users/Lenovo/my+Code/dic/Assignment5/main.cpp || cmake_object_order_depends_target_Assignment5
+  DEP_FILE = CMakeFiles\Assignment5.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Assignment5.dir
   OBJECT_FILE_DIR = CMakeFiles\Assignment5.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Assignment5.dir/stack.cpp.obj: CXX_COMPILER__Assignment5_Debug 
 #############################################
 # Link the executable Assignment5.exe
 
-build Assignment5.exe: CXX_EXECUTABLE_LINKER__Assignment5_Debug CMakeFiles/Assignment5.dir/stack.cpp.obj
+build Assignment5.exe: CXX_EXECUTABLE_LINKER__Assignment5_Debug CMakeFiles/Assignment5.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Assignment5.dir
